@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      const firebaseConfig = {
+  apiKey: "AIzaSyDXMVX4vMAOoCZgOr5qmktf_yM7MZadR18",
+  authDomain: "golden-project-ac573.firebaseapp.com",
+  projectId: "golden-project-ac573",
+  storageBucket: "golden-project-ac573.appspot.com",
+  messagingSenderId: "276652664531",
+  appId: "1:276652664531:web:8ea1bbbfa046ac23f49626"
+};
+
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/ground.js"></script>
+    <script src="matter.js"></script>
+    <script src="js/Slingshot.js"></script>
+    <script src="js/Box.js"></script>
+    <script src="js/Stand.js"></script>
+    <script src="js/pet.js"></script>
+   
+    
+   
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
